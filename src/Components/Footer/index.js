@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Francisco 2020</span>
+      <span>© Francisco Camacho, 2020</span>
     </footer>
   );
 }
