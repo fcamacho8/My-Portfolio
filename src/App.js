@@ -9,8 +9,9 @@ import Contact from "./Pages/ContactMe"
 
 function App() {
   return (
+   
     <Router>
-  
+       <div>
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Home} />
@@ -19,8 +20,11 @@ function App() {
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
+        </div>
     </Router>
+    
   );
+  
 }
 
 export default App;
